@@ -6,6 +6,7 @@ WebCut - формат для загрузки раскроя одного чеш
 
 # Подготовка
 - Сам плагин для кромки [modul HRANY](https://www.pro100.cz/aktualizace-knihoven), либо его [переведенная версия](https://disk.yandex.ru/d/nushxSMMjUnVMw) (мин версия 6.41 и выше)
+- webcut2bazis.exe можно скачать на странице [релизов](https://github.com/KKomarov/webcut2bazis/releases)
 
 # Использование
 - Расставляем кромку через плагин (предпочтительней), либо через свойства детали -> отчеты -> кромка
