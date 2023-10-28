@@ -1,9 +1,18 @@
 # webcut2bazis
-Converts PRO100 WebCut to Bazis Cloud csv. Separate csv generated for each material and thickness.
+WebCut - формат для загрузки раскроя одного чешского раскройщика. В про100 сделали плагин в котором можно указывать
+кромку разной толщины с каждой 4х сторон отдельно и добавили возможность экспортировать в WebCut. Мы в свою очередь можем
+легко перегнать его в формат Базис Облака. 
+При этом все элементы будут сгруппированы по материалу и толщине и сохранены в разные файлы.
 
-# Usage
+# Подготовка
+- Сам плагин для кромки [modul HRANY](https://www.pro100.cz/aktualizace-knihoven), либо его [переведенная версия](https://disk.yandex.ru/d/nushxSMMjUnVMw) (мин версия 6.41 и выше)
+
+# Использование
+- Расставляем кромку через плагин (предпочтительней), либо через свойства детали -> отчеты -> кромка
+- Инструменты -> Отчеты и смета -> Export WebCut
+- Получившийся txt кидаем на webcut2bazis.exe и получаем набор csv которые можно грузить в Bazis Cloud
+- Либо используем cmd
 ```
 python3 webcut2bazis.py webcut.txt
 ```
-or drag and drop on webcut2bazis.exe
 
